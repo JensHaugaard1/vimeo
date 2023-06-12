@@ -13,6 +13,8 @@ body, html {
     cursor: none;
  }
 
+
+
  .video { 
   position: static;
   margin: -20px;
@@ -25,7 +27,8 @@ body, html {
   pointer-events: none ;
   }
 
- #mouse-circle {
+  @media (min-width: 801px) {
+     #mouse-circle {
   position: relative;
   width: 20px;
   height: 20px;
@@ -35,7 +38,10 @@ body, html {
   background-color: rgb(150, 150, 150);
   left: -20px;
   transition: opacity 0.6s ease-out;
+  
 }
+  }
+
 
 
 

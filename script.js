@@ -1,6 +1,3 @@
-
-
-
 document.addEventListener('DOMContentLoaded', () => {
     let mousePosX = 0,
         mousePosY = 0,

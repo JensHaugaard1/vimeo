@@ -8,7 +8,7 @@ body, html {
     height: 100%;
     width : 100%; 
     overflow: hidden;
-    background:#030303;
+    background:#040404;
     color: white;
     cursor: none;
  }
@@ -21,6 +21,8 @@ body, html {
   justify-content: center;
   align-items: center;
   height: 100%;
+  cursor: none;
+  pointer-events: none ;
   }
 
  #mouse-circle {
